@@ -11,7 +11,7 @@ will have a single hidden layer, and will be trained with gradient descent to
 fit random data by minimizing the Euclidean distance between the network output
 and the true output.
 
-**NOTE:** These examples have been update for PyTorch 0.4, which made several
+**NOTE:** These examples have been updated for PyTorch 0.4 and verified for PyTorch 1.0. PyTorch 0.4 made several
 major changes to the core PyTorch API. Most notably, prior to 0.4 Tensors had
 to be wrapped in Variable objects to use autograd; this functionality has now
 been added directly to Tensors, and Variables are now deprecated.
